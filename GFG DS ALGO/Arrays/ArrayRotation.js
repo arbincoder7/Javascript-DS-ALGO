@@ -1,9 +1,11 @@
 // Approach Number 1 is using a temporary array
+//Time complexity: O(N) 
+//Auxiliary Space: O(N)
 
-function Rotate_and_Print(arr,d,n)
+const Rotate_and_Print = (arr,d,n) =>
  {
      //Initializing array temp with size n
-     var temp=new Array(n);
+    let temp=new Array(n);
       
     let k = 0;
  
